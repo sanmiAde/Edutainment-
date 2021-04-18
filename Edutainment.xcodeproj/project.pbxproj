@@ -13,6 +13,8 @@
 		861D9B40262C17860093A092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 861D9B3F262C17860093A092 /* Preview Assets.xcassets */; };
 		861D9B4B262C17860093A092 /* EdutainmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D9B4A262C17860093A092 /* EdutainmentTests.swift */; };
 		861D9B56262C17860093A092 /* EdutainmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D9B55262C17860093A092 /* EdutainmentUITests.swift */; };
+		861D9B67262C1B0A0093A092 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D9B66262C1B0A0093A092 /* StepperView.swift */; };
+		861D9B6C262C2C710093A092 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861D9B6B262C2C710093A092 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		861D9B51262C17860093A092 /* EdutainmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdutainmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861D9B55262C17860093A092 /* EdutainmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdutainmentUITests.swift; sourceTree = "<group>"; };
 		861D9B57262C17860093A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		861D9B66262C1B0A0093A092 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		861D9B6B262C2C710093A092 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				861D9B3C262C17860093A092 /* Assets.xcassets */,
 				861D9B41262C17860093A092 /* Info.plist */,
 				861D9B3E262C17860093A092 /* Preview Content */,
+				861D9B66262C1B0A0093A092 /* StepperView.swift */,
+				861D9B6B262C2C710093A092 /* Question.swift */,
 			);
 			path = Edutainment;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				861D9B3B262C17850093A092 /* ContentView.swift in Sources */,
+				861D9B6C262C2C710093A092 /* Question.swift in Sources */,
+				861D9B67262C1B0A0093A092 /* StepperView.swift in Sources */,
 				861D9B39262C17850093A092 /* EdutainmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
